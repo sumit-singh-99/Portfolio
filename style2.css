@@ -1,0 +1,78 @@
+.grid-container {
+  margin-left: 50px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+.grid-item {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.button {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.page {
+  color: #001f3f;
+  background-color: antiquewhite;
+  margin: none;
+  padding: none;
+}
+.contact-info {
+  background-color: #2b4a6a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-info a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
